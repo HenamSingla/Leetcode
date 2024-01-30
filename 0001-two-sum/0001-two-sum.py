@@ -7,8 +7,6 @@ class Solution:
         
         
         dictionary = {}
-        if len(nums) == 2:
-            return[0,1]
         for i, num in enumerate(nums):
             remain = target - num
             if num in dictionary.keys():
