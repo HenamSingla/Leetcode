@@ -11,7 +11,7 @@ class Solution:
             return[0,1]
         for i, num in enumerate(nums):
             remain = target - num
-            if num in dictionary.keys() and i != dictionary[num]:
+            if num in dictionary.keys():
                 return[i,dictionary[num]]
 
             dictionary[remain] = i
