@@ -1,17 +1,19 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        s_dict={}      
+        map_s={}
         for i in s:
-            if i not in s_dict.keys():
-                s_dict[i]=1
-            s_dict[i]+=1
-
-        t_dict={}      
+            if i in map_s.keys():
+                map_s[i]+=1
+            else:
+                map_s[i]=1
+        
+        map_t={}
         for j in t:
-            if j not in t_dict.keys():
-                t_dict[j]=1
-            t_dict[j]+=1
-        if s_dict==t_dict:
+            if j in map_t.keys():
+                map_t[j]+=1
+            else:
+                map_t[j]=1
+        
+        if map_s==map_t:
             return True
         return False
-        
