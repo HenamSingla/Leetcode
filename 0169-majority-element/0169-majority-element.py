@@ -12,5 +12,5 @@ class Solution:
         print(max_value)
         
         for key,value in hashmap.items():
-            if value==max_value
-            return key
+            if value==max_value:
+                return key
