@@ -8,10 +8,11 @@ class Solution:
                 merged.append(i)
             if merged[-1][1]<i[0]:
                 merged.append(i)
-            if merged[-1][1]>=i[0] and merged[-1][1]<i[1]:
-                merged[-1][1]=i[1]
             else:
-                continue
-            
+                merged[-1][1] = max(merged[-1][1], i[1])
+            # if merged[-1][1]>=i[0] and merged[-1][1]<i[1]:
+            #     merged[-1][1]=i[1]
+            # else:
+            #     continue
         return merged
             
