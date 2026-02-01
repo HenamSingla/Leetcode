@@ -4,5 +4,10 @@ class Solution:
         for num in nums:
             x=num**2
             square.append(x)
+        #uses timesort
         new=sorted(square)
         return new
+
+#time: O(nlogn)
+#space:O(n)
+
