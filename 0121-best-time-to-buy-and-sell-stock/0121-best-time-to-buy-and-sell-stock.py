@@ -11,6 +11,9 @@ class Solution:
             # print(current_profit)
             profit=max(profit,current_profit)
         return profit
+
+        #time: O(n)
+        #space: O(1)
         
 
 
