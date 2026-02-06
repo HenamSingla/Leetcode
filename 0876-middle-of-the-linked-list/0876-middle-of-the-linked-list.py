@@ -19,6 +19,7 @@ class Solution:
             fast=fast.next.next
 
         return slow
+        #time: O(n) amd Space: O(1)
 
 
 
