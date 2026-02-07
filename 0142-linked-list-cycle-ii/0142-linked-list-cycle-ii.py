@@ -16,9 +16,9 @@ class Solution:
             return None  # no cycle
 
         # Phase 2: find cycle start
-        slow = head
-        while slow != fast:
-            slow = slow.next
-            fast = fast.next
+        slow=head
+        while slow!=fast:
+            slow=slow.next
+            fast=fast.next
 
         return slow
