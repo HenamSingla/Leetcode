@@ -11,7 +11,7 @@ class Solution:
         n=len(nums)
         res=[0]*n
         sort_nums=sorted(nums)
-        print(sort_nums)
+        
         for i,num in enumerate(nums):
             pos=sort_nums.index(num)
             res[i]=pos
