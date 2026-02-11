@@ -2,7 +2,9 @@ class Solution:
     def shuffle(self, nums: List[int], n: int) -> List[int]:
         res=[0]*(2*n)
         for i in range(n):
-            #0,1,2,3,4,5
+            #0,1,2
             res[2*i]=nums[i]
+            #res[0,2,4]
             res[2*i+1]=nums[n+i]
+            #res[1,3,5]
         return res
