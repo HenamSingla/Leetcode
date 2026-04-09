@@ -12,7 +12,6 @@ class Solution:
                     queue.append((r,c))
                 else:
                     mat[r][c]=float('inf')
-
         directions=[(0,1),(0,-1),(1,0),(-1,0)]
         while queue:
             r,c=queue.popleft()
