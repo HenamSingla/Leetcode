@@ -6,6 +6,7 @@ Solving leetcode problems
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0252-meeting-rooms](https://github.com/HenamSingla/Leetcode/tree/main/0252-meeting-rooms/) | Easy |
 | [0542-01-matrix](https://github.com/HenamSingla/Leetcode/tree/main/0542-01-matrix/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -19,4 +20,8 @@ Solving leetcode problems
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0542-01-matrix](https://github.com/HenamSingla/Leetcode/tree/main/0542-01-matrix/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0252-meeting-rooms](https://github.com/HenamSingla/Leetcode/tree/main/0252-meeting-rooms/) | Easy |
 <!---LeetCode Topics End-->
